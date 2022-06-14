@@ -68,7 +68,13 @@ The
 
 ## Length Estimation
 
+<img src="wall_measured.png" alt="img" width="400"/>
 
+As seen above, the measured total length of cracks on the mockup wall is
+
+49.5 + 12 + 41 + 33 + 9.5 + 23.5 + 20 = **188.5 cm**
+
+Below are the results to estimate the total length on the mockup wall using Pixels Per Metric Ratio, sorted by aascending Percentage Error.
 
 |Image Name         |Image|Estimate Total Length (pixels)|Pixels Per Metric Ratio|Estimate Total Length (cm)| % Error|
 |-------------|-----|------------|-----|-------|---------|
