@@ -78,27 +78,28 @@ IOU of 1 means perfect prediction and 0 means all predictions are wrong.
 <img src="wall_measured.png" alt="img" width="400"/>
 
 As seen above, the measured total length of cracks on the mockup wall is
-
-49.5 + 12 + 41 + 33 + 9.5 + 23.5 + 20 = **188.5 cm**
+ 
+43.5 + 12 + 41 + 33 + 9.5 + 23.5 + 20 = **182.5 cm**
 
 Below are the results to estimate the total length on the mockup wall using Pixels Per Metric Ratio, sorted by aascending Percentage Error.
 
 |Image Name         |Image|Estimate Total Length (pixels)|Pixels Per Metric Ratio|Estimate Total Length (cm)| % Error|
 |-------------|-----|------------|-----|-------|---------|
-|lab_00008.jpg|<img src="lab/lab_00008.jpg" alt="img" width="200"/>|611         |30.55|186    |1        |
-|lab_00022.jpg|<img src="lab/lab_00022.jpg" alt="img" width="200"/>|168         |8.4  |183    |2        |
-|lab_00007.jpg|<img src="lab/lab_00007.jpg" alt="img" width="200"/>|169         |8.45 |194    |2        |
-|lab_00002.jpg|<img src="lab/lab_00002.jpg" alt="img" width="200"/>|727         |36.35|202    |7        |
-|lab_00017.jpg|<img src="lab/lab_00017.jpg" alt="img" width="200"/>|669         |33.45|173    |8        |
-|lab_00001.jpg|<img src="lab/lab_00001.jpg" alt="img" width="200"/>|595         |29.75|207    |9        |
-|lab_00012.jpg|<img src="lab/lab_00012.jpg" alt="img" width="200"/>|609         |30.45|209    |10       |
-|lab_00003.jpg|<img src="lab/lab_00003.jpg" alt="img" width="200"/>|185         |9.25 |164    |12       |
-|lab_00018.jpg|<img src="lab/lab_00018.jpg" alt="img" width="200"/>|604         |30.2 |219    |16       |
-|lab_00019.jpg|<img src="lab/lab_00019.jpg" alt="img" width="200"/>|173         |8.65 |232    |23       |
-|lab_00004.jpg|<img src="lab/lab_00004.jpg" alt="img" width="200"/>|659         |32.95|253    |34       |
-|lab_00021.jpg|<img src="lab/lab_00021.jpg" alt="img" width="200"/>|136         |6.8  |286    |51       |
-|lab_00011.jpg|<img src="lab/lab_00011.jpg" alt="img" width="200"/>|150         |7.5  |290    |53       |
-|lab_00006.jpg|<img src="lab/lab_00006.jpg" alt="img" width="200"/>|516         |25.8 |364    |93       |
+|lab_00008.jpg|<img src="lab/lab_00008.jpg" alt="img" width="200"/>|611         |30.55|186    |1.9      |
+|lab_00022.jpg|<img src="lab/lab_00022.jpg" alt="img" width="200"/>|168         |8.4  |183    |0.3      |
+|lab_00007.jpg|<img src="lab/lab_00007.jpg" alt="img" width="200"/>|169         |8.45 |194    |6.3      |
+|lab_00002.jpg|<img src="lab/lab_00002.jpg" alt="img" width="200"/>|727         |36.35|202    |10.7     |
+|lab_00017.jpg|<img src="lab/lab_00017.jpg" alt="img" width="200"/>|669         |33.45|173    |5.2      |
+|lab_00001.jpg|<img src="lab/lab_00001.jpg" alt="img" width="200"/>|595         |29.75|207    |13.4     |
+|lab_00012.jpg|<img src="lab/lab_00012.jpg" alt="img" width="200"/>|609         |30.45|209    |14.5     |
+|lab_00003.jpg|<img src="lab/lab_00003.jpg" alt="img" width="200"/>|185         |9.25 |164    |10.1     |
+|lab_00018.jpg|<img src="lab/lab_00018.jpg" alt="img" width="200"/>|604         |30.2 |219    |20.0     |
+|lab_00019.jpg|<img src="lab/lab_00019.jpg" alt="img" width="200"/>|173         |8.65 |232    |27.1     |
+|lab_00004.jpg|<img src="lab/lab_00004.jpg" alt="img" width="200"/>|659         |32.95|253    |38.6     |
+|lab_00021.jpg|<img src="lab/lab_00021.jpg" alt="img" width="200"/>|136         |6.8  |286    |56.7     |
+|lab_00011.jpg|<img src="lab/lab_00011.jpg" alt="img" width="200"/>|150         |7.5  |290    |58.9     |
+|lab_00006.jpg|<img src="lab/lab_00006.jpg" alt="img" width="200"/>|516         |25.8 |364    |99.5     |
+
 
 
 
