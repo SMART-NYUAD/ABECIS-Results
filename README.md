@@ -1,5 +1,8 @@
 # ABECIS-Results
-Results for ABECIS Paper
+
+These are the results for our paper "Developing a Free and Open-source Automated Building Exterior Crack Inspection Software for Construction and Facility Managers" by P. Ko, S. A. Prieto, B. García de Soto
+
+The 
 
 ## IOU
 
@@ -63,10 +66,11 @@ Results for ABECIS Paper
 |outdoor_drone_00070.jpg|<img src="outdoor_drone/outdoor_drone_00070.jpg" alt="img" width="200"/>|0.370|
 
 
-
 ## Length Estimation
 
-|Image Name         |Image|Estimate Length (pixels)|Pixels Per Metric Ratio|Estimate Length (cm)| % Error|
+
+
+|Image Name         |Image|Estimate Total Length (pixels)|Pixels Per Metric Ratio|Estimate Total Length (cm)| % Error|
 |-------------|-----|------------|-----|-------|---------|
 |lab_00008.jpg|<img src="lab/lab_00008.jpg" alt="img" width="200"/>|611         |30.55|186    |1        |
 |lab_00022.jpg|<img src="lab/lab_00022.jpg" alt="img" width="200"/>|168         |8.4  |183    |2        |
