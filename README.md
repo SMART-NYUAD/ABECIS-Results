@@ -75,7 +75,7 @@ IOU of 1 means perfect prediction and 0 means all predictions are wrong.
 
 ## Length Estimation
 
-<img src="wall_measured.png" alt="img" width="400"/>
+<img src="wall_measured2.png" alt="img" width="400"/>
 
 As seen above, the measured total length of cracks on the mockup wall is
  
