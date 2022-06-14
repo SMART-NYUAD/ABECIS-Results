@@ -7,6 +7,8 @@ The following contains the Intersection Over Union evaluation for images taken i
 - Outdoor Construction Site Environment, using Android Smartphone (14 images)
 - Outdoor University Campus, using DJI Matrice 300 RTK Drone (14 images)
 
+Moreover, length estimation Indoor Lab Controlled Environment is also included below.
+
 IOU of 1 means perfect prediction and 0 means all predictions are wrong.
 
 ## IOU
