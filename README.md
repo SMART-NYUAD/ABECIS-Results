@@ -1,8 +1,13 @@
 # ABECIS-Results
 
-These are the results for our paper "Developing a Free and Open-source Automated Building Exterior Crack Inspection Software for Construction and Facility Managers" by P. Ko, S. A. Prieto, B. García de Soto
+These are the results for our paper "Developing a Free and Open-source Automated Building Exterior Crack Inspection Software for Construction and Facility Managers" by P. Ko, S. A. Prieto, B. García de Soto from [S.M.A.R.T. Construction Research Group](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/smart-construction-research-group.html) at New York University Abu Dhabi
 
-The 
+The following contains the Intersection Over Union evaluation for images taken in 
+- Indoor Lab Controlled Environment, using DJI Matrice 300 RTK Drone
+- Outdoor Construction Site Environment, using Android Smartphone
+- Outdoor University Campus, using DJI Matrice 300 RTK Drone
+
+IOU of 1 means perfect prediction and 0 means all predictions are wrong.
 
 ## IOU
 
