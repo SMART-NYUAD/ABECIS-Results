@@ -1,5 +1,13 @@
 # ABECIS-Results
-Results for ABECIS Paper
+
+These are the results for our paper "Developing a Free and Open-source Automated Building Exterior Crack Inspection Software for Construction and Facility Managers" by P. Ko, S. A. Prieto, B. García de Soto from [S.M.A.R.T. Construction Research Group](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/smart-construction-research-group.html) at New York University Abu Dhabi
+
+The following contains the Intersection Over Union evaluation for images taken in 
+- Indoor Lab Controlled Environment, using DJI Matrice 300 RTK Drone
+- Outdoor Construction Site Environment, using Android Smartphone
+- Outdoor University Campus, using DJI Matrice 300 RTK Drone
+
+IOU of 1 means perfect prediction and 0 means all predictions are wrong.
 
 ## IOU
 
@@ -63,10 +71,17 @@ Results for ABECIS Paper
 |outdoor_drone_00070.jpg|<img src="outdoor_drone/outdoor_drone_00070.jpg" alt="img" width="200"/>|0.370|
 
 
-
 ## Length Estimation
 
-|Image Name         |Image|Estimate Length (pixels)|Pixels Per Metric Ratio|Estimate Length (cm)| % Error|
+<img src="wall_measured.png" alt="img" width="400"/>
+
+As seen above, the measured total length of cracks on the mockup wall is
+
+49.5 + 12 + 41 + 33 + 9.5 + 23.5 + 20 = **188.5 cm**
+
+Below are the results to estimate the total length on the mockup wall using Pixels Per Metric Ratio, sorted by aascending Percentage Error.
+
+|Image Name         |Image|Estimate Total Length (pixels)|Pixels Per Metric Ratio|Estimate Total Length (cm)| % Error|
 |-------------|-----|------------|-----|-------|---------|
 |lab_00008.jpg|<img src="lab/lab_00008.jpg" alt="img" width="200"/>|611         |30.55|186    |1        |
 |lab_00022.jpg|<img src="lab/lab_00022.jpg" alt="img" width="200"/>|168         |8.4  |183    |2        |
