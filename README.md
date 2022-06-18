@@ -57,22 +57,23 @@ IOU of 1 means perfect prediction and 0 means all predictions are wrong.
 
 ### Outdoor - Drone
 
-|Image Name   |Image|IOU (Largest to Smallest)|
-|-------------|-----|-----|
-|outdoor_drone_00006.jpg|<img src="outdoor_drone/outdoor_drone_00006.jpg" alt="img" width="200"/>|0.972|
-|outdoor_drone_00008.jpg|<img src="outdoor_drone/outdoor_drone_00008.jpg" alt="img" width="200"/>|0.970|
-|outdoor_drone_00016.jpg|<img src="outdoor_drone/outdoor_drone_00016.jpg" alt="img" width="200"/>|0.970|
-|outdoor_drone_00010.jpg|<img src="outdoor_drone/outdoor_drone_00010.jpg" alt="img" width="200"/>|0.968|
-|outdoor_drone_00004.jpg|<img src="outdoor_drone/outdoor_drone_00004.jpg" alt="img" width="200"/>|0.963|
-|outdoor_drone_00018.jpg|<img src="outdoor_drone/outdoor_drone_00018.jpg" alt="img" width="200"/>|0.962|
-|outdoor_drone_00109.jpg|<img src="outdoor_drone/outdoor_drone_00109.jpg" alt="img" width="200"/>|0.962|
-|outdoor_drone_00115.jpg|<img src="outdoor_drone/outdoor_drone_00115.jpg" alt="img" width="200"/>|0.954|
-|outdoor_drone_00065.jpg|<img src="outdoor_drone/outdoor_drone_00065.jpg" alt="img" width="200"/>|0.796|
-|outdoor_drone_00067.jpg|<img src="outdoor_drone/outdoor_drone_00067.jpg" alt="img" width="200"/>|0.720|
-|outdoor_drone_00058.jpg|<img src="outdoor_drone/outdoor_drone_00058.jpg" alt="img" width="200"/>|0.550|
-|outdoor_drone_00062.jpg|<img src="outdoor_drone/outdoor_drone_00062.jpg" alt="img" width="200"/>|0.502|
-|outdoor_drone_00072.jpg|<img src="outdoor_drone/outdoor_drone_00072.jpg" alt="img" width="200"/>|0.430|
-|outdoor_drone_00070.jpg|<img src="outdoor_drone/outdoor_drone_00070.jpg" alt="img" width="200"/>|0.370|
+|No |Image Name    |Crack Type(s)                        |Image (segmentation mask)                           |True Positives|False Positives|IoU (All)|IoU  (True Positives)|
+|---|--------------|-------------------------------------|----------------------------------------------------|--------------|---------------|---------|---------------------|
+|1  |outdoor_drone_00006.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00006.jpg" alt="img" width="200"/>|1             |0              |0.972    |0.972                |
+|2  |outdoor_drone_00008.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00008.jpg" alt="img" width="200"/>|1             |0              |0.970    |0.970                |
+|3  |outdoor_drone_00016.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00016.jpg" alt="img" width="200"/>|1             |0              |0.970    |0.970                |
+|4  |outdoor_drone_00010.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00010.jpg" alt="img" width="200"/>|1             |0              |0.968    |0.968                |
+|5  |outdoor_drone_00004.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00004.jpg" alt="img" width="200"/>|1             |0              |0.963    |0.963                |
+|6  |outdoor_drone_00018.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00018.jpg" alt="img" width="200"/>|1             |0              |0.962    |0.962                |
+|7  |outdoor_drone_00109.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00109.jpg" alt="img" width="200"/>|2             |0              |0.962    |0.962                |
+|8  |outdoor_drone_00115.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00115.jpg" alt="img" width="200"/>|2             |0              |0.954    |0.954                |
+|9  |outdoor_drone_00065.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00065.jpg" alt="img" width="200"/>|3             |0              |0.796    |0.796                |
+|10 |outdoor_drone_00067.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00067.jpg" alt="img" width="200"/>|3             |0              |0.720    |0.720                |
+|11 |outdoor_drone_00058.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00058.jpg" alt="img" width="200"/>|3             |0              |0.550    |0.550                |
+|12 |outdoor_drone_00062.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00062.jpg" alt="img" width="200"/>|1             |0              |0.502    |0.502                |
+|13 |outdoor_drone_00072.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00072.jpg" alt="img" width="200"/>|2             |0              |0.430    |0.430                |
+|14 |outdoor_drone_00070.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00070.jpg" alt="img" width="200"/>|2             |0              |0.370    |0.370                |
+
 
 
 ## Length Estimation
