@@ -17,7 +17,7 @@ IOU of 1 means perfect prediction and 0 means all predictions are wrong.
 
 ### Indoor - Lab
 
-|No |Image Name    |Crack Type(s)                        |Image (segmentation mask)                           |True Positives|False Positives|IoU (All)|IoU (True Positives)|
+|No |Image Name    |Crack Type(s)                        |Image                |True Positives|False Positives|IoU (All)|IoU (True Positives)|
 |---|--------------|-------------------------------------|----------------------------------------------------|--------------|---------------|---------|--------------------|
 |1  |lab_00017.jpg |'Diagonal Crack'                     |<img src="lab/lab_00017.jpg" alt="img" width="200"/>|8             |0              |0.999    |0.999               |
 |2  |lab_00001.jpg |'Diagonal Crack'                     |<img src="lab/lab_00001.jpg" alt="img" width="200"/>|7             |0              |0.962    |0.962               |
@@ -36,7 +36,7 @@ IOU of 1 means perfect prediction and 0 means all predictions are wrong.
 
 ### Outdoor - Construction Site
 
-|No |Image Name    |Crack Type(s)                        |Image (segmentation mask)                           |True Positives|False Positives|IoU (All)|IoU  (True Positives)|
+|No |Image Name    |Crack Type(s)                        |Image                          |True Positives|False Positives|IoU (All)|IoU  (True Positives)|
 |---|--------------|-------------------------------------|----------------------------------------------------|--------------|---------------|---------|---------------------|
 |1  |outdoor_site_00197.jpg |'Vertical Crack'                     |<img src="outdoor_site/outdoor_site_00197.jpg" alt="img" width="200"/>|1             |0              |0.968    |0.968                |
 |2  |outdoor_site_00200.jpg |'Vertical Crack'                     |<img src="outdoor_site/outdoor_site_00200.jpg" alt="img" width="200"/>|1             |0              |0.967    |0.967                |
@@ -57,7 +57,7 @@ IOU of 1 means perfect prediction and 0 means all predictions are wrong.
 
 ### Outdoor - Drone
 
-|No |Image Name    |Crack Type(s)                        |Image (segmentation mask)                           |True Positives|False Positives|IoU (All)|IoU  (True Positives)|
+|No |Image Name    |Crack Type(s)                        |Image                        |True Positives|False Positives|IoU (All)|IoU  (True Positives)|
 |---|--------------|-------------------------------------|----------------------------------------------------|--------------|---------------|---------|---------------------|
 |1  |outdoor_drone_00006.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00006.jpg" alt="img" width="200"/>|1             |0              |0.972    |0.972                |
 |2  |outdoor_drone_00008.jpg |'Diagonal Crack'                     |<img src="outdoor_drone/outdoor_drone_00008.jpg" alt="img" width="200"/>|1             |0              |0.970    |0.970                |
