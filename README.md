@@ -11,6 +11,8 @@ Moreover, length estimation Indoor Lab Controlled Environment is also included b
 
 IOU of 1 means perfect prediction and 0 means all predictions are wrong.
 
+**Everything is arranged in (Largest to Smallest) IoU (All)**
+
 ## IOU
 
 ### Indoor - Lab
@@ -31,27 +33,6 @@ IOU of 1 means perfect prediction and 0 means all predictions are wrong.
 |12 |lab_00011.jpg |'Diagonal Crack', 'Horizontal Crack' |<img src="lab/lab_00011.jpg" alt="img" width="200"/>|5             |1              |0.554    |0.654               |
 |13 |lab_00019.jpg |'Diagonal Crack'                     |<img src="lab/lab_00019.jpg" alt="img" width="200"/>|5             |1              |0.509    |0.971               |
 |14 |lab_00021.jpg |'Diagonal Crack'                     |<img src="lab/lab_00021.jpg" alt="img" width="200"/>|4             |1              |0.505    |0.938               |
-
-
-### Indoor - Lab
-
-|Image Name   |Image|IOU (Largest to Smallest)|
-|-------------|-----|-----|
-|lab_00017.jpg|<img src="lab/lab_00017.jpg" alt="img" width="200"/>|0.999|
-|lab_00001.jpg|<img src="lab/lab_00001.jpg" alt="img" width="200"/>|0.962|
-|lab_00003.jpg|<img src="lab/lab_00003.jpg" alt="img" width="200"/>|0.929|
-|lab_00004.jpg|<img src="lab/lab_00004.jpg" alt="img" width="200"/>|0.853|
-|lab_00002.jpg|<img src="lab/lab_00002.jpg" alt="img" width="200"/>|0.804|
-|lab_00008.jpg|<img src="lab/lab_00008.jpg" alt="img" width="200"/>|0.773|
-|lab_00012.jpg|<img src="lab/lab_00012.jpg" alt="img" width="200"/>|0.694|
-|lab_00018.jpg|<img src="lab/lab_00018.jpg" alt="img" width="200"/>|0.678|
-|lab_00006.jpg|<img src="lab/lab_00006.jpg" alt="img" width="200"/>|0.665|
-|lab_00022.jpg|<img src="lab/lab_00022.jpg" alt="img" width="200"/>|0.642|
-|lab_00007.jpg|<img src="lab/lab_00007.jpg" alt="img" width="200"/>|0.642|
-|lab_00011.jpg|<img src="lab/lab_00011.jpg" alt="img" width="200"/>|0.554|
-|lab_00019.jpg|<img src="lab/lab_00019.jpg" alt="img" width="200"/>|0.509|
-|lab_00021.jpg|<img src="lab/lab_00021.jpg" alt="img" width="200"/>|0.505|
-
 
 ### Outdoor - Construction Site
 
