@@ -101,7 +101,7 @@ Below are the results to estimate the total length on the mockup wall using Pixe
 |lab_00004.jpg|<img src="lab/lab_00004.jpg" alt="img" width="200"/>|659         |32.95|253    |38.6     |
 |lab_00021.jpg|<img src="lab/lab_00021.jpg" alt="img" width="200"/>|136         |6.8  |286    |56.7     |
 |lab_00011.jpg|<img src="lab/lab_00011.jpg" alt="img" width="200"/>|150         |7.5  |290    |58.9     |
-|lab_00006.jpg|<img src="lab/lab_00006.jpg" alt="img" width="200"/>|516         |25.8 |364    |99.5     |
+|lab_00006.jpg|<img src="lab/lab_00006.jpg" alt="img" width="200"/>|516         |25.8 |364    |18.3     |
 
 
 
