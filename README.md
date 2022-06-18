@@ -15,6 +15,26 @@ IOU of 1 means perfect prediction and 0 means all predictions are wrong.
 
 ### Indoor - Lab
 
+|No |Image Name    |Crack Type(s)                        |Image (segmentation mask)                           |True Positives|False Positives|IoU (All)|IoU (True Positives)|
+|---|--------------|-------------------------------------|----------------------------------------------------|--------------|---------------|---------|--------------------|
+|1  |lab_00017.jpg |'Diagonal Crack'                     |<img src="lab/lab_00017.jpg" alt="img" width="200"/>|8             |0              |0.999    |0.999               |
+|2  |lab_00001.jpg |'Diagonal Crack'                     |<img src="lab/lab_00001.jpg" alt="img" width="200"/>|7             |0              |0.962    |0.962               |
+|3  |lab_00003.jpg |'Diagonal Crack'                     |<img src="lab/lab_00003.jpg" alt="img" width="200"/>|5             |0              |0.929    |0.929               |
+|4  |lab_00004.jpg |'Diagonal Crack', 'Horizontal Crack' |<img src="lab/lab_00004.jpg" alt="img" width="200"/>|7             |1              |0.853    |0.892               |
+|5  |lab_00002.jpg |'Diagonal Crack'                     |<img src="lab/lab_00002.jpg" alt="img" width="200"/>|9             |1              |0.804    |0.903               |
+|6  |lab_00008.jpg |'Diagonal Crack'                     |<img src="lab/lab_00008.jpg" alt="img" width="200"/>|7             |0              |0.773    |0.773               |
+|7  |lab_00012.jpg |'Diagonal Crack'                     |<img src="lab/lab_00012.jpg" alt="img" width="200"/>|7             |1              |0.694    |0.783               |
+|8  |lab_00018.jpg |'Diagonal Crack'                     |<img src="lab/lab_00018.jpg" alt="img" width="200"/>|8             |0              |0.678    |0.678               |
+|9  |lab_00006.jpg |'Diagonal Crack'                     |<img src="lab/lab_00006.jpg" alt="img" width="200"/>|7             |1              |0.665    |0.680               |
+|10 |lab_00022.jpg |'Diagonal Crack'                     |<img src="lab/lab_00022.jpg" alt="img" width="200"/>|5             |0              |0.642    |0.642               |
+|11 |lab_00007.jpg |'Diagonal Crack'                     |<img src="lab/lab_00007.jpg" alt="img" width="200"/>|5             |0              |0.642    |0.642               |
+|12 |lab_00011.jpg |'Diagonal Crack', 'Horizontal Crack' |<img src="lab/lab_00011.jpg" alt="img" width="200"/>|5             |1              |0.554    |0.654               |
+|13 |lab_00019.jpg |'Diagonal Crack'                     |<img src="lab/lab_00019.jpg" alt="img" width="200"/>|5             |1              |0.509    |0.971               |
+|14 |lab_00021.jpg |'Diagonal Crack'                     |<img src="lab/lab_00021.jpg" alt="img" width="200"/>|4             |1              |0.505    |0.938               |
+
+
+### Indoor - Lab
+
 |Image Name   |Image|IOU (Largest to Smallest)|
 |-------------|-----|-----|
 |lab_00017.jpg|<img src="lab/lab_00017.jpg" alt="img" width="200"/>|0.999|
