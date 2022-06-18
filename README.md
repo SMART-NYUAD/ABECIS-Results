@@ -36,22 +36,23 @@ IOU of 1 means perfect prediction and 0 means all predictions are wrong.
 
 ### Outdoor - Construction Site
 
-|Image Name   |Image|IOU (Largest to Smallest)|
-|-------------|-----|-----|
-|outdoor_site_00197.jpg|<img src="outdoor_site/outdoor_site_00197.jpg" alt="img" width="200"/>|0.968|
-|outdoor_site_00200.jpg|<img src="outdoor_site/outdoor_site_00200.jpg" alt="img" width="200"/>|0.967|
-|outdoor_site_00187.jpg|<img src="outdoor_site/outdoor_site_00187.jpg" alt="img" width="200"/>|0.946|
-|outdoor_site_00201.jpg|<img src="outdoor_site/outdoor_site_00201.jpg" alt="img" width="200"/>|0.903|
-|outdoor_site_00168.jpg|<img src="outdoor_site/outdoor_site_00168.jpg" alt="img" width="200"/>|0.848|
-|outdoor_site_00169.jpg|<img src="outdoor_site/outdoor_site_00169.jpg" alt="img" width="200"/>|0.839|
-|outdoor_site_00003.jpeg|<img src="outdoor_site/outdoor_site_00003.jpeg" alt="img" width="200"/>|0.252|
-|outdoor_site_00001.jpeg|<img src="outdoor_site/outdoor_site_00001.jpeg" alt="img" width="200"/>|0.120|
-|outdoor_site_00002.jpeg|<img src="outdoor_site/outdoor_site_00002.jpeg" alt="img" width="200"/>|0.089|
-|outdoor_site_00178.jpg|<img src="outdoor_site/outdoor_site_00178.jpg" alt="img" width="200"/>|0.000|
-|outdoor_site_00136.jpg|<img src="outdoor_site/outdoor_site_00136.jpg" alt="img" width="200"/>|0.000|
-|outdoor_site_00174.jpg|<img src="outdoor_site/outdoor_site_00174.jpg" alt="img" width="200"/>|0.000|
-|outdoor_site_00195.jpg|<img src="outdoor_site/outdoor_site_00195.jpg" alt="img" width="200"/>|0.000|
-|outdoor_site_00177.jpg|<img src="outdoor_site/outdoor_site_00177.jpg" alt="img" width="200"/>|0.000|
+|No |Image Name    |Crack Type(s)                        |Image (segmentation mask)                           |True Positives|False Positives|IoU (All)|IoU  (True Positives)|
+|---|--------------|-------------------------------------|----------------------------------------------------|--------------|---------------|---------|---------------------|
+|1  |outdoor_site_00197.jpg |'Vertical Crack'                     |<img src="outdoor_site/outdoor_site_00197.jpg" alt="img" width="200"/>|1             |0              |0.968    |0.968                |
+|2  |outdoor_site_00200.jpg |'Vertical Crack'                     |<img src="outdoor_site/outdoor_site_00200.jpg" alt="img" width="200"/>|1             |0              |0.967    |0.967                |
+|3  |outdoor_site_00187.jpg |'Vertical Crack'                     |<img src="outdoor_site/outdoor_site_00187.jpg" alt="img" width="200"/>|1             |0              |0.946    |0.946                |
+|4  |outdoor_site_00201.jpg |'Horizontal Crack'                   |<img src="outdoor_site/outdoor_site_00201.jpg" alt="img" width="200"/>|1             |0              |0.903    |0.903                |
+|5  |outdoor_site_00168.jpg |'Diagonal Crack'                     |<img src="outdoor_site/outdoor_site_00168.jpg" alt="img" width="200"/>|2             |0              |0.848    |0.848                |
+|6  |outdoor_site_00169.jpg |'Diagonal Crack'                     |<img src="outdoor_site/outdoor_site_00169.jpg" alt="img" width="200"/>|3             |0              |0.839    |0.839                |
+|7  |outdoor_site_00003.jpeg |'Diagonal Crack', 'Horizontal Crack', 'Vertical Crack' |<img src="outdoor_site/outdoor_site_00003.jpeg" alt="img" width="200"/>|1             |3              |0.252    |0.981                |
+|8  |outdoor_site_00001.jpeg |'Horizontal Crack', 'Vertical Crack' |<img src="outdoor_site/outdoor_site_00001.jpeg" alt="img" width="200"/>|2             |3              |0.120    |0.976                |
+|9  |outdoor_site_00002.jpeg |'Diagonal Crack'                     |<img src="outdoor_site/outdoor_site_00002.jpeg" alt="img" width="200"/>|1             |3              |0.089    |0.969                |
+|10 |outdoor_site_00178.jpg |'Diagonal Crack', 'Vertical Crack'   |<img src="outdoor_site/outdoor_site_00178.jpg" alt="img" width="200"/>|0             |3              |0.000    |N/A                  |
+|11 |outdoor_site_00136.jpg |'Diagonal Crack', 'Horizontal Crack' |<img src="outdoor_site/outdoor_site_00136.jpg" alt="img" width="200"/>|0             |2              |0.000    |N/A                  |
+|12 |outdoor_site_00174.jpg |'Vertical Crack'                     |<img src="outdoor_site/outdoor_site_00174.jpg" alt="img" width="200"/>|0             |1              |0.000    |N/A                  |
+|13 |outdoor_site_00195.jpg |'Diagonal Crack'                     |<img src="outdoor_site/outdoor_site_00195.jpg" alt="img" width="200"/>|0             |6              |0.000    |N/A                  |
+|14 |outdoor_site_00177.jpg |'Diagonal Crack'                     |<img src="outdoor_site/outdoor_site_00177.jpg" alt="img" width="200"/>|0             |1              |0.000    |N/A                  |
+
 
 
 ### Outdoor - Drone
